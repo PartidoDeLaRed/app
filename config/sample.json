@@ -21,24 +21,24 @@
   "mandrillMailer": {
     "key": "api-key-provided-by-mandrill-something-like-klomFRs7MWASlosCa2q6Y",
     "from" : {
-      "name": "DemocracyOS",
-      "email": "info@democraciaenred.org"
+      "name": "Partido de la Red",
+      "email": "no-responder@partidodelared.org"
     }
   },
   "socialshare" : {
-    "siteName" : "DemocracyOS",
-    "siteDescription" : "DemocracyOS voting system",
-    "image" : "https://2.gravatar.com/avatar/a8b9176bd0d042db078bf38500727671?d=https%3A%2F%2Fidenticons.github.com%2F14bae9f2564556f8eb23cc263a779f59.png&s=400",
-    "domain" : "democracyos.org",
+    "siteName" : "Partido de la Red - DemocraciaOS",
+    "siteDescription" : "Sistema de votación del Partido de la Red",
+    "image" : "http://s3.amazonaws.com/pdr-mediawiki/images/8/84/Pdr_200x200.png",
+    "domain" : "partidodelared.org",
     "twitter" : {
-      "username" : "@democracyos"
+      "username" : "@partidodelared"
     }
   },
-  "logo" : "http://democraciaenred.org/boot/images/logo.png",
-  "favicon" : "http://democraciaenred.org/favicon.ico",
-  "organization name" : "DemocracyOS on GitHub",
-  "organization url" : "https://github.com/DemocracyOS/app",
+  "logo" : "//s3.amazonaws.com/pdr-app/images/logo-white.png",
+  "favicon" : "https://s3.amazonaws.com/pdr-app/images/favicon.ico",
+  "organization name" : "Partido de la Red",
+  "organization url" : "http://www.partidodelared.org",
   "staff": [],
   "google analytics tracking id" : "",
-  "rss enabled" : true
+  "rss enabled" : false
 }
