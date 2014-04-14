@@ -4,10 +4,21 @@
   "privatePort": 3000,
   "publicPort": 3000,
   "mongoUrl": "mongodb://localhost/DemocracyOS-dev",
-  "client": [ "protocol", "host", "publicPort", "env", "logo", "favicon", "organization name", "organization url", "google analytics tracking id" ],
+  "client": [
+    "protocol",
+    "host",
+    "publicPort",
+    "env",
+    "logo",
+    "favicon",
+    "organization name",
+    "organization url",
+    "learn more url",
+    "google analytics tracking id"
+  ],
   "auth": {
     "basic": {
-      "username" : "",
+      "username": "",
       "password": ""
     }
   },
@@ -38,6 +49,7 @@
   "favicon" : "https://s3.amazonaws.com/pdr-app/images/favicon.ico",
   "organization name" : "Partido de la Red",
   "organization url" : "http://www.partidodelared.org",
+  "learn more url": "",
   "staff": [],
   "google analytics tracking id" : "",
   "rss enabled" : false
