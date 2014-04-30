@@ -3,6 +3,10 @@
   #email-validation-message
     h1= t("Welcome, {name}!", { name: ((citizen && citizen.firstName) ? citizen.firstName : t("Guest"))})
     p.lead.text-muted #{t("Your email has been validated and now you are logged in")}.
-    p.lead.text-muted= t("You can now argue and vote on bills!")
-    p.lead.text-muted #{t("Go to")} 
-      a(href="/")= t("browsing")
+    - if (!config['netid enabled'])
+      p.lead.text-muted= t("You can now argue and vote on bills!")
+      p.lead.text-muted #{t("Go to")} 
+        a(href="/")= t("browsing")
+    - else
+      p.lead.text-muted=t('signup.validate.one.step.further')
+      p.lead.text-muted!=t('signup.validate.go.to.settings')

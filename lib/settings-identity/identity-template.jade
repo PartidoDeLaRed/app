@@ -1,0 +1,21 @@
+#identity-wrapper.hide
+  .identity-settings
+    .heading
+      .circle
+        i.icon-identity
+      h1= t('settings.identity-validation.title')
+    .form
+      .form-group
+        - if (!citizen.netid)
+          label.start-instructions #{t('settings.identity-validation.label')}
+        div.start-container
+          - if (citizen.netid)
+            on = 'on'
+            buttonLabel = t('settings.identity-validation.started')
+          - else
+            on = ''
+            buttonLabel = t('settings.identity-validation.start')
+          a.btn.btn-success.btn-lg.btn-start.hide(class=on) #{buttonLabel}
+          span.glyphicon.glyphicon-refresh.loading.hide
+          span.glyphicon.glyphicon-ok-sign.verified.hide
+        ul.form-messages

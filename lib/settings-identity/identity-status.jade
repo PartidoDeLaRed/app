@@ -1,0 +1,6 @@
+.identity-status
+  p #{t('settings.identity-validation.identity-status')}
+    span.status!= status
+
+  - if (!hideInstructions)
+    p.instructions!= t('settings.identity-validation.instructions', {url: url})

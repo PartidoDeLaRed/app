@@ -5,6 +5,8 @@
         li.heading= t('Settings')
         li: a(href="/settings/profile")= t('Profile')
         li: a(href="/settings/password")= t('Password')
+        - if (config['netid enabled'])
+          li: a(href="/settings/identity")= t('Identity validation')
         li: a(href="/settings/sessions", style="display: none;")= t('Sessions')
         li: a(href="/settings/notifications", style="display: none;")= t('Notifications')
     .settings-content

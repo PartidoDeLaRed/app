@@ -15,7 +15,7 @@
   "Incorrect username": "Incorrect username",
   "Field %s is not set": "Field %s is not set",
   "Password argument not set!": "Password argument not set!",
-  "User already exists with name %s": "User already exists with name %s",
+  "email.already.taken": "Citizen already exists with that email",
 
   "Password is required": "Password is required",
   "Password is not good enough": "Password is not good enough",
@@ -27,6 +27,7 @@
   "Profile": "Profile",
   "Sessions": "Sessions",
   "Notifications": "Notifications",
+  "Identity validation": "Identity validation",
   "Change your profile picture at gravatar.com": "Change your profile picture at gravatar.com",
   "First name isn't valid": "First name isn't valid",
   "Last name isn't valid": "Last name isn't valid",
@@ -39,6 +40,20 @@
   "Confirm new password": "Confirm new password",
   "Your password was successfuly updated": "Your password was successfuly updated",
   "Current password is invalid": "Current password is invalid",
+
+  "settings.identity-validation.title": "Identity validation",
+  "settings.identity-validation.label": "Start your activation identity validation process",
+  "settings.identity-validation.start": "Start",
+  "settings.identity-validation.processing": "Processing...",
+  "settings.identity-validation.started": "Started",
+  "settings.identity-validation.request-error": "Request error, try again later",
+  "settings.identity-validation.identity-status": "Your identity status is:",
+  "settings.identity-validation.identity-verified": "Verified",
+  "settings.identity-validation.identity-not-verified": "Not verified",
+  "settings.identity-validation.error-verifying": "Error verifying <a href=\"/settings/identity/\"><i class=\"glyphicon glyphicon-repeat\"></i></a>",
+  "settings.identity-validation.instructions": "Go to <a href=\"{url}\" target=\"_blank\">this link</a> to know how to verify your identity",
+  "signup.validate.one.step.further": "You're just a step further to start arguing and voting on laws.",
+  "signup.validate.go.to.settings": "Go to <a href=\"/settings/identity\">identity settings</a> to start the identity validation process",
 
   "sidebar.open": "Open",
   "sidebar.closed": "Closed",
@@ -53,6 +68,8 @@
   "comments.sign-in-required": "You must be signed in to argue here",
   "comments.deleted-arguments": "Deleted arguments",
   "comments.your-argument": "Your argument",
+  "comments.edit.argument": "Edit argument",
+  "comments.edited": "edited",
   "Send": "Send",
 
   "DemocracyOS - Password reset requested": "DemocracyOS - Password reset requested",
@@ -71,6 +88,7 @@
   "Repeat Password": "Repeat Password",
   "Reset Password!": "Reset Password!",
   "Forgot Password?": "Forgot Passoword?",
+  "DemocracyOS markdown": "DemocracyOS markdown",
   "Don't have an account?": "Don't have an account?",
   "We will send an email with a link to reset your password": "We will send an email with a link to reset your password",
   "We just sent a message to your email with instructions to create a new password": "We just sent a message to your email with instructions to create a new password",
@@ -123,6 +141,9 @@
   "Yea": "Yea",
   "Nay": "Nay",
   "Abstain": "Abstain",
+  "Yes": "Yes",
+  "Cancel": "Cancel",
+  "Edit": "Edit",
   "Delegate": "Delegate",
   "Delegate to": "Delegate to",
   "{num} votes cast": "{num} votes cast",
@@ -132,7 +153,7 @@
   "Chart": "Chart",
   
   "Clause": "Clause",
-  "read more": "read more",
+  "read more": "Read more",
   "view more": "view more",
   "View the original text": "View the original text",
   "Participant": "Participant",
@@ -145,16 +166,23 @@
 
   "This argument has been flagged as spam": "This argument has been flagged as spam",
   "show": "show",
+  "Do you want to remove this argument?": "Do you want to remove this argument?",
+  "That argument is not yours!": "That argument is not yours!",
 
   "proposal-article.article.alert.text": "This is DemocracyOS's public demo.",
   "proposal-article.article.alert.learn-more": "Learn more",
 
+  "Remove argument" : "Remove argument",
   "Spam" : "Report as spam",
   "Not spam" : "Not Spam",
   "Upvote" : "Upvote",
   "Downvote" : "Downvote",
   "Argument is limited to 4096 characters": "Argument is limited to 4096 characters",
   "Argument cannot be empty": "Argument cannot be empty",
+
+  "You have not verified your identity yet": "You have not verified your identity yet",
+  "An error was produced trying to verify your identity, please try again later": "An error was produced trying to verify your identity, please try again later",
+  "netid-templates.action.netid-enabled-required": "You must <a href=\"/settings/identity\">validate your identity</a> to perform this action",
 
   "To not take part on the citizen's decision": "To not take part on the citizen's decision",
   "To respect parlament methodology": "To respect parlament methodology",
@@ -192,7 +220,7 @@
   "admin-laws-form.clause.label.text": "Text",
   "admin-laws-form.clause.button.delete": "Delete",
   "admin-laws-form.clause.confirmation.title": "Clause removal",
-  "admin-laws-form.clause.confirmation.body": "This action will erease data permanently. Would you like to procced?",
+  "admin-laws-form.clause.confirmation.body": "This action will erase data permanently. Would you like to procced?",
   "admin-laws-form.clause.confirmation.cancel": "Cancel",
   "admin-laws-form.clause.confirmation.ok": "Delete",
 
@@ -204,7 +232,7 @@
 
   "admin-laws-form.delete-law.button.delete": "Delete",
   "admin-laws-form.delete-law.confirmation.title": "Delete law",
-  "admin-laws-form.delete-law.confirmation.body": "This action will erease data permanently. Woudl you like to procced?",
+  "admin-laws-form.delete-law.confirmation.body": "This action will erase data permanently. Woudl you like to procced?",
   "admin-laws-form.delete-law.confirmation.cancel": "Cancel",
   "admin-laws-form.delete-law.confirmation.ok": "Delete",
 
@@ -217,6 +245,28 @@
   "admin-tags-form.label.image": "Image",
   "admin-tags-form.button.submit": "Save",
 
-  "admin-tags-form.message.onsuccess": "Tag successfuly saved",
-  "admin-tags-form.message.validation.name-required": "Name required"
+  "admin-tags-form.message.onsuccess": "Tag successfully saved",
+  "admin-tags-form.message.validation.name-required": "Name required",
+
+  "markdown.cheatsheet.title": "Markdown Cheatsheet",
+  "democracyos.markdown.flavored": "DemocracyOS flavored markdown",
+  "markdown.will.become": "Will become:",
+  "markdown.text.1": "DemocracyOS uses the following markdown rules for argumenting on laws",
+  "markdown.title.emphasis": "Text emphasis",
+  "markdown.emphasis.example.1": "Emphasis, aka italics, with *asterisks* or _underscores_.",
+  "markdown.emphasis.example.2": "Strong emphasis, aka bold, with **asterisks** or __underscores__.",
+  "markdown.emphasis.example.3": "Combined emphasis with **asterisks and _underscores_**.",
+  "markdown.url-autolinking.title": "URL autolinking",
+  "markdown.url-autolinking.text": "DemocracyOS markdown will autolink standard URLs, so if you want to link to a URL, you can simply enter the URL and it will be turned into a link to that URL.",
+  "markdown.url-autolinking.example": "Enter to http://example.com",
+  "markdown.linebreaks.title": "Linebreaks",
+  "markdown.linebreaks.text": "More than 2 linebreaks will get compressed. For example:",
+  "markdown.linebreaks.example.1": "Here's a line for us to start with.\n",
+  "markdown.linebreaks.example.2": "This is our second line.\n\n",
+  "markdown.linebreaks.example.3": "Here's another one.\n\n\n\n",
+  "markdown.linebreaks.example.4": "And this one will have only 2 linebreaks.",
+  "markdown.playground.title": "Playground",
+  "markdown.playground.text": "Give it a try for yourself!",
+  "markdown.playground.result": "Result:",
+  "markdown.comments.link": "Comments are parsed using <a href='/markdown'>DemocracyOS flavored Markdown</a>"
 }

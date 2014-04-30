@@ -10,9 +10,8 @@ form.comment-form .help-text.form-errors {
 	color: red;
 	display: none;
 	float: left;
-	height: 32px;
-	line-height: 32px;
-	margin-left: 6px;
+	margin-left: 12px;
+	width: 64%;
 }
 
 form.comment-form.has-error .help-text.form-errors {

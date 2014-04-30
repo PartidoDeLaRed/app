@@ -1,0 +1,13 @@
+{
+  "name": "netid-templates",
+  "description": "templates for the netid integration",
+  "dependencies": {
+    "visionmedia/jade": "*",
+    "cristiandouce/query": "0.0.1",
+    "yields/empty": "0.0.1"
+  },
+  "local": [ "render" ],
+  "scripts": [ "index.js" ],
+  "templates": [ "identity-not-verified.jade", "identity-verification-error.jade", "citizen-not-enabled-netid.jade" ],
+  "main": "index.js"
+}

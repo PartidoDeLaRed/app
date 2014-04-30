@@ -14,7 +14,8 @@
     "organization name",
     "organization url",
     "learn more url",
-    "google analytics tracking id"
+    "google analytics tracking id",
+    "netid enabled"
   ],
   "auth": {
     "basic": {
@@ -52,5 +53,27 @@
   "learn more url": "",
   "staff": [],
   "google analytics tracking id" : "",
-  "rss enabled" : false
+  "rss enabled" : false,
+  "locale" : "en",
+  "netid": {
+    "base url": "netid-testing.herokuapp.com",
+    "client id": "some-client-id-from-your-provider",
+    "client secret": "some-client-secret-from-your-provider",
+    "endpoints": {
+      "request token": {
+        "method": "POST",
+        "path": "/oauth/v2/token"
+      },
+      "verified identity": {
+        "method": "POST",
+        "path": "/api/verify"
+      },
+      "create identity": {
+        "method": "POST",
+        "path": "/api/create"
+      }
+    }
+  },
+  "netid enabled": false,
+  "netid instructions url": "http://wiki.partidodelared.org/"
 }
