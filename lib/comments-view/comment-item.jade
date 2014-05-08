@@ -53,9 +53,9 @@ li.media.comment-item(data-id=comment.id, class= ((comment.flags.length > commen
         - !citizen.id && classes.push('hide')
         a.comment-action.vote-comment.dislike(href="#", title=t('Downvote'), class=classes)
           i.icon-angle-down
-        div.error
         - if (length || citizen.id)
           a.comment-action.comment-reply.pull-right(href='#')
             i.icon-reply
             span.reply-counter= length > 0 ? length : ''
+        div.error
   .replies-container
