@@ -70,6 +70,8 @@
   "comments.your-argument": "Tu argumento",
   "comments.edit.argument": "Editar argumento",
   "comments.edited": "editado",
+  "That comment is not yours!": "¡Ese argumento no es tuyo!",
+  "Comment has replies, cannot be removed!": "¡El argumento tiene respuestas, no puede ser borrado!",
   "Send": "Enviar",
 
   "DemocracyOS - Password reset requested": "Partido de la Red - Reestablecer contraseña",
@@ -177,9 +179,12 @@
   "Not spam" : "Esto no es abuso",
   "Upvote" : "Aporta al debate",
   "Downvote" : "No aporta al debate",
+  "Reply": "Respuesta",
+  "Replies": "Respuestas",
+  "No replies": "Sin respuestas",
   "Argument is limited to 4096 characters": "El argumento no puede exceder los 4096 caracteres",
   "Argument cannot be empty": "El argumento no puede estar vacío",
-  
+  "Reply cannot be empty": "La respuesta no puede estar vacía",
   "You have not verified your identity yet": "Aún no has verificado tu identidad",
   "An error was produced trying to verify your identity, please try again later": "Se ha producido un error intentando validar tu identidad, por favor inténtalo de nuevo más tarde",
   "netid-templates.action.netid-enabled-required": "Debes <a href=\"/settings/identity\">validar tu identidad</a> para realizar esta acción",
@@ -256,9 +261,12 @@
   "markdown.emphasis.example.1": "Énfasis, conocido como itálica, puede escribirse con *asteriscos* o _guíones bajos_.",
   "markdown.emphasis.example.2": "El énfasis fuerte, conocido como negrita; con doble **asteriscos** o __guíones bajos__.",
   "markdown.emphasis.example.3": "El énfasis combinado se logra con **asteriscos y _guíones bajos_**.",
-  "markdown.url-autolinking.title": "Links automáticos",
+  "markdown.url-autolinking.title": "Links",
   "markdown.url-autolinking.text": "DemocracyOS pondrá un link automáticamente a las URLs standard, así que si quieres linkear a una URL, simplemente puedes ingresar la URL y el link se agregará automáticamente",
+  "markdown.url-autolinking.text.2": "Además, puedes crear un link poniendo el texto entre corchetes ( [ ] ), y luego la URL entre paréntesis ( ( ) ).",
+  "markdown.url-autolinking.text.3": "Por ejemplo, para crear un link a http://www.example.com, con un texto que diga \"Ingresa a Example.com!\" escribirías lo siguiente:",
   "markdown.url-autolinking.example": "Ingresa a http://ejemplo.com",
+  "markdown.url-autolinking.example2": "[Ingresa a Example.com!](http://www.example.com)",
   "markdown.linebreaks.title": "Saltos de línea",
   "markdown.linebreaks.text": "Más de 2 saltos de línea serán comprimidos. Por ejemplo:",
   "markdown.linebreaks.example.1": "Aquí tenemos una primera línea para empezar.\n",
@@ -268,5 +276,5 @@
   "markdown.playground.title": "A jugar",
   "markdown.playground.text": "¡Pruébalo tú mismo!",
   "markdown.playground.result": "Resultado:",
-  "markdown.comments.link": "Los comentarios son parseados utilizando el <a href='/markdown'>Markdown especial de DemocracyOS</a>"
+  "markdown.comments.link": "<a href='/markdown'>Markdown de DemocracyOS</a>"
 }

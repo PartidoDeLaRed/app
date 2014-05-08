@@ -6,8 +6,6 @@
     "component/emitter": "1.1.1",
     "component/events": "1.0.5",
     "component/classes": "1.2.0",
-    "cristiandouce/tip": "ae4ab",
-    "component/aurora-tip": "1.0.0",
     "visionmedia/jade": "1.1.5",
     "visionmedia/debug": "0.7.4",
     "yields/serialize": "0.2.0",
@@ -16,6 +14,7 @@
     "cristiandouce/to-array": "0.0.1",
     "cristiandouce/query": "0.0.1",
     "slifszyc/paragraphs": "0.2.0",
+    "yields/empty": "0.0.1",
     "slifszyc/trunkata": "0.2.4"
   },
   "local": [
@@ -24,7 +23,8 @@
     "netid-templates",
     "config",
     "comments-edit",
-    "markdown"
+    "markdown",
+    "comments-replies"
   ],  
   "scripts": [ "view.js" ],
   "styles" : [ "comments-view.styl", "comments.css" ],
