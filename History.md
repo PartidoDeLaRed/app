@@ -1,7 +1,8 @@
 
-0.6.1 / 2014-05-09 
+0.6.1 / 2014-05-09
 ==================
 
+ * Fix several translation errors
  * Fix unresolved conflict
 
 0.6.0 / 2014-05-07
