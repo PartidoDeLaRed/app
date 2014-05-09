@@ -54,6 +54,6 @@
   "learn more url": "",
   "staff": [],
   "google analytics tracking id" : "",
-  "rss enabled" : false,
-  "comments per page": 10
+  "rss enabled" : true,
+  "comments per page": 0
 }
