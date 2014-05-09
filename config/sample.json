@@ -14,7 +14,8 @@
     "organization name",
     "organization url",
     "learn more url",
-    "google analytics tracking id"
+    "google analytics tracking id",
+    "comments per page"
   ],
   "auth": {
     "basic": {
@@ -45,6 +46,7 @@
       "username" : "@partidodelared"
     }
   },
+  "locale" : "es",
   "logo" : "//s3.amazonaws.com/pdr-app/images/logo-white.png",
   "favicon" : "https://s3.amazonaws.com/pdr-app/images/favicon.ico",
   "organization name" : "Partido de la Red",
@@ -52,5 +54,6 @@
   "learn more url": "",
   "staff": [],
   "google analytics tracking id" : "",
-  "rss enabled" : false
+  "rss enabled" : false,
+  "comments per page": 10
 }
