@@ -15,7 +15,8 @@
     "organization url",
     "learn more url",
     "google analytics tracking id",
-    "netid enabled"
+    "netid enabled",
+    "comments per page"
   ],
   "auth": {
     "basic": {
@@ -75,5 +76,7 @@
     }
   },
   "netid enabled": false,
-  "netid instructions url": "http://wiki.partidodelared.org/"
+  "netid instructions url": "http://wiki.partidodelared.org/",
+  "rss enabled" : true,
+  "comments per page": 0
 }

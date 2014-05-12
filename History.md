@@ -1,4 +1,19 @@
 
+0.6.3 / 2014-05-12 
+==================
+
+ * Fix build failure based on remotes. Change remotes order.
+
+0.6.2 / 2014-05-09 
+==================
+
+ * Fix comments paging and sorting
+
+0.6.1 / 2014-05-09
+==================
+
+ * Fix several translation errors
+
 0.6.0 / 2014-05-07
 ==================
  * Add 'fi' locale (Finnish)
@@ -7,6 +22,7 @@
  * Add markdown'd arguments
  * Add markdown explanation page
  * Add locale config parameter
+ * Add comments paging
  * Fix component issue
  * Fix some UI issues
  * Fix npm packages dependencies, changing ^ for ~
