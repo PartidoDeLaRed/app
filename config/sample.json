@@ -47,6 +47,7 @@
       "username" : "@partidodelared"
     }
   },
+  "locale" : "es",
   "logo" : "//s3.amazonaws.com/pdr-app/images/logo-white.png",
   "favicon" : "https://s3.amazonaws.com/pdr-app/images/favicon.ico",
   "organization name" : "Partido de la Red",
@@ -54,8 +55,6 @@
   "learn more url": "",
   "staff": [],
   "google analytics tracking id" : "",
-  "rss enabled" : false,
-  "locale" : "en",
   "netid": {
     "base url": "netid-testing.herokuapp.com",
     "client id": "some-client-id-from-your-provider",
@@ -75,7 +74,7 @@
       }
     }
   },
-  "netid enabled": false,
+  "netid enabled": true,
   "netid instructions url": "http://wiki.partidodelared.org/",
   "rss enabled" : true,
   "comments per page": 0
