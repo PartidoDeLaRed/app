@@ -1,4 +1,19 @@
 
+0.6.5 / 2014-05-13 
+==================
+
+ * Fix embedded image in proposal size to match the proposal's width
+
+0.6.4 / 2014-05-13
+==================
+
+ * Remove unneeded remotes from root `component.json`
+
+0.6.3 / 2014-05-12 
+==================
+
+ * Fix build failure based on remotes. Change remotes order.
+
 0.6.2 / 2014-05-09 
 ==================
 
