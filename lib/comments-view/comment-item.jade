@@ -3,8 +3,12 @@
 - var flags = ~comment.flags.map(function(v) { return v.author; }).indexOf(citizen.id)
 - var own = comment.author.id == citizen.id
 - var length = comment.replies.length
+- if (config['spam limit'])
+  - var spam = comment.flags.length > config['spam limit']
+- else
+  - var spam = comment.flags.length > (comment.upvotes.length - comment.downvotes.length)
 
-li.media.comment-item(data-id=comment.id, class= ((comment.flags.length > comment.upvotes.length) || flags) ? 'spam' : '')
+li.media.comment-item(data-id=comment.id, class=spam ? 'spam' : '')
   span.pull-left
     img(src=comment.author.gravatar).avatar
 
@@ -17,6 +21,7 @@ li.media.comment-item(data-id=comment.id, class= ((comment.flags.length > commen
         - var spamTitle = flags ?  t('Not spam') : t('Spam')
         a.comment-action.link-report.flag(href="#", title=spamTitle, class=classes)
           i.glyphicon.glyphicon-flag
+          span.count=comment.flags.length ? comment.flags.length : ''
       - else
         a.comment-action.link-remove.btn-remove(href="#", title=t('Remove argument'), class=(length ? 'hide' : ''))
           i.icon-remove
@@ -24,11 +29,10 @@ li.media.comment-item(data-id=comment.id, class= ((comment.flags.length > commen
           i.icon-pencil
 
       | #{comment.author.fullName} 
+      small.ago(data-time=comment.createdAt.toString())
       - if (comment.editedAt)
-        small.edited #{t('comments.edited')}
-      - var time = comment.editedAt ? comment.editedAt : comment.createdAt
-      small.ago(data-time=time.toString())
-      small :
+        small.edited · #{t('comments.edited')}
+      small=':'
     .comment-body
       div.comment-text!=markdown(comment.text)
       - if (own)
@@ -54,7 +58,10 @@ li.media.comment-item(data-id=comment.id, class= ((comment.flags.length > commen
         a.comment-action.vote-comment.dislike(href="#", title=t('Downvote'), class=classes)
           i.icon-angle-down
         - if (length || citizen.id)
-          a.comment-action.comment-reply.pull-right(href='#')
-            i.icon-reply
+          - var title = length + ' ' + (length > 1 ? t('comments.replies') : t('comments.reply'))
+          a.comment-action.comment-reply.pull-right(href='#', title=title.toLowerCase())
             span.reply-counter= length > 0 ? length : ''
+          a.comment-action.comment-reply.pull-right(href='#', title=t('comments.reply-to-argument'))
+            i.icon-reply
+      span.error
   .replies-container
