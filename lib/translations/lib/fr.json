@@ -2,6 +2,7 @@
   "common.or": "ou",
   "common.ok": "OK",
   "common.cancel": "Annuler",
+  "common.back": "Retourner",
 
   "DemocracyOS": "DemocracyOS",
   "header.logo": "DemocracyOS Demo",
@@ -172,6 +173,7 @@
   "show": "montrer",
   "comments.replies.confirm-remove": "Voulez-vous supprimer cette réponse?",
   "That argument is not yours!": "Cet argument n'est pas le vôtre!",
+  "There are no laws to display": "Il n'y a pas de lois à afficher",
 
   "proposal-article.article.alert.text": "Celle-ci est la version de preuve de DemocracyOS.",
   "proposal-article.article.alert.learn-more": "En savoir plus",
@@ -219,7 +221,7 @@
   "admin-laws-form.button.make-public": "Publier",
 
   "admin-laws-form.clause.heading": "Article",
-  "admin-laws-form.clause.label.clauseId": "Numéro d' article",
+  "admin-laws-form.clause.label.clauseName": "Nom d' article",
   "admin-laws-form.clause.label.order": "Position/Ordre",
   "admin-laws-form.clause.label.text": "Contenu",
   "admin-laws-form.clause.button.delete": "Éliminer",
@@ -227,6 +229,7 @@
   "admin-laws-form.clause.confirmation.body": "Cette action éliminera l' information de façon permanente. Voulez-vous continuer?",
   "admin-laws-form.clause.confirmation.cancel": "Annuler",
   "admin-laws-form.clause.confirmation.ok": "Éliminer",
+  "admin-laws-form.clause.text-centered": "Texte centré",
 
   "admin-laws-form.message.onsuccess": "Loi sauvegardée avec succès",
   "admin-laws-form.message.validation.lawId-required": "Identification officielle requise",

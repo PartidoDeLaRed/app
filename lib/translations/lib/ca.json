@@ -2,6 +2,7 @@
   "common.or": "o",
   "common.ok": "OK",
   "common.cancel": "Cancel",
+  "common.back": "Tornar",
 
   "DemocracyOS": "DemocracyOS",
   "header.logo": "DemocracyOS Demo",
@@ -174,6 +175,7 @@
   "show": "mostrar",
   "comments.replies.confirm-remove": "Vols eliminar aquesta responsa?",
   "That argument is not yours!": "Aquest argument no és seva!",
+  "There are no laws to display": "No hi ha lleis per mostrar",
 
   "proposal-article.article.alert.text": "Això és la versió de prova de DemocracyOS.",
   "proposal-article.article.alert.learn-more": "Més informació",
@@ -220,7 +222,7 @@
   "admin-laws-form.button.make-public": "Publicar",
 
   "admin-laws-form.clause.heading": "clàusula",
-  "admin-laws-form.clause.label.clauseId": "clàusula Id",
+  "admin-laws-form.clause.label.clauseName": "clàusula nom",
   "admin-laws-form.clause.label.order": "Ordre",
   "admin-laws-form.clause.label.text": "Text",
   "admin-laws-form.clause.button.delete": "Esborrar",
@@ -228,6 +230,7 @@
   "admin-laws-form.clause.confirmation.body": "Aquesta acció esborrarà les dades permanentment. Voleu continuar?",
   "admin-laws-form.clause.confirmation.cancel": "Cancel",
   "admin-laws-form.clause.confirmation.ok": "Delete",
+  "admin-laws-form.clause.text-centered": "Text centrat",
 
   "admin-laws-form.message.onsuccess": "Law successfuly saved",
   "admin-laws-form.message.validation.lawId-required": "Official Id required",
