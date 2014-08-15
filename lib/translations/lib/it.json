@@ -41,6 +41,22 @@
   "Confirm new password": "Conferma la nuova password",
   "Your password was successfuly updated": "La tua password è stata aggiornata correttamente",
   "Current password is invalid": "La password corrente non è valido",
+  "Please wait": "attendere prego",
+
+  "validators.required": "Obbligatorio",
+  "validators.checked": "Campo controllato obbligatori",
+  "validators.invalid.email": "Indirizzo email non valido",
+  "validators.invalid.firstname": "Nome non valido",
+  "validators.invalid.lastname": "Cognome non valido",
+  "validators.invalid.url": "URL non valido ",
+  "validators.invalid.number": "Numero non valido ",
+  "invalid.password": "Password non valida",
+  "validators.min-length.singular": "Essa deve essere almeno 1 carattere",
+  "validators.min-length.plural": "Si mus essere almeno {n} caratteri",
+  "validators.input.not-exists": "{name} elementari non esiste ",
+  "validators.password.not.match": "Le password non corrispondono",
+  "validators.not.match": "Nessuna corrispondenza",
+  "validators.invalid": "Non valido",
 
   "sidebar.open": "Aperte",
   "sidebar.closed": "Chiuse",
@@ -79,8 +95,8 @@
   "Send": "Inviare",
 
   "DemocracyOS - Password reset requested": "DemocracyOS - Reimpostare la password",
-  "Hi {name}": "Ciao {nome}",
-  "Please click <a href=\"{url}\">here</a> to reset your password": "Per favore clicca <a href=\"{url}\">aquí</a> per reimpostare la password",
+  "Hi {name}": "Ciao {name}",
+  "Please click <a href=\"{url}\">here</a> to reset your password": "Per favore clicca <a href=\"{url}\">qui</a> per reimpostare la password",
   "The DemocracyOS team": "La squadra di DemocracyOS",
   "PS: if you haven't requested to reset your password, please ignore this email": "P.S.: se non hai richiesto di reimpostare la password, ignorare questa email",
   "DemocracyOS - Welcome!": "DemocracyOS - Benvenuto!",
@@ -109,10 +125,10 @@
   "Re-type password": "Redigitare la password",
   "Signup now!": "Iscriviti subito!",
   "Welcome, {name}!": "Benvenuto, {nome}!",
-  "Guest": "Invitato",
   "Your sign up data was received. We sent you an email so you can validate your email address.": "I dati di iscrizione è stato ricevuto. Ti abbiamo inviato una e-mail in modo da poter convalidare il tuo indirizzo email.",
   "Please check your email (remember to check your spam folder too) and click on the link supplied on the email.": "Controlla la tua email (ricordatevi di controllare la cartella spam troppo) e fare clic sul link fornito nell'e-mail.",
   "Your email has been validated and now you are logged in": "La tua email è stato convalidato e ora si è iscritto",
+  "You're being redirected in 5 seconds": "Stai per essere reindirizzato in 5 secondi",
   "You can now argue and vote on bills!": "È ora possibile discutere e votare su leggi!",
   "Go to": "Vai a",
   "browsing": "Inizio",
@@ -289,5 +305,15 @@
 
   "This page does not exist": "Questa pagina non esiste",
   "go back to": "Tornare a",
-  "Go back to DemocracyOS": "Tornare a DemocracyOS"
+  "Go back to DemocracyOS": "Tornare a DemocracyOS",
+
+  "side-comments.post": "Messaggio",
+  "side-comments.cancel": "Cancellare",
+  "side-comments.leave-a-comment": "Lascia un commento",
+  "side-comments.delete": "Cancellare",
+  "side-comments.or": "o",
+  "side-comments.login": "Entra",
+  "side-comments.signup": "Inscriviti",
+  "side-comments.delete.confirmation": "Sei sicuro di voler cancellare questo commento?",
+  "side-comments.confirmation.title": "Elimina commento"
 }

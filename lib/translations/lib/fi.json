@@ -42,6 +42,22 @@
   "Confirm new password": "Vahvista uusi salasana",
   "Your password was successfuly updated": "Salasanasi on nyt päivitetty",
   "Current password is invalid": "Nykyinen salasana on pätemätön",
+  "Please wait": "odota",
+
+  "validators.required": "vaadittu",
+  "validators.checked": "Vaadittu tarkastetaan kenttä",
+  "validators.invalid.email": "Virheellinen sähköpostiosoite",
+  "validators.invalid.firstname": "Virheellinen etunimi",
+  "validators.invalid.lastname": "Virheellinen sukunimi",
+  "validators.invalid.url": "Virheellinen URL-osoite",
+  "validators.invalid.number": "Virheellinen numero",
+  "invalid.password": "Virheellinen salasana",
+  "validators.min-length.singular": "Sen on oltava vähintään 1 merkki",
+  "validators.min-length.plural": "Se mus olla vähintään {n} merkkiä",
+  "validators.input.not-exists": "{name} elemen ei ole olemassa",
+  "validators.password.not.match": "Passwords do not match",
+  "validators.not.match": "ei ottelu",
+  "validators.invalid": "pätemätön",
 
   "sidebar.open": "Auki",
   "sidebar.closed": "Suljettu",
@@ -106,10 +122,10 @@
   "Re-type password": "Kirjoita salasana uudestaan",
   "Signup now!": "Kirjaudu nyt!",
   "Welcome, {name}!": "Tervetuloa, {name}!",
-  "Guest": "Vieras",
   "Your sign up data was received. We sent you an email so you can validate your email address.": "Rekisteröitymisesi on nyt kirjattu. Lähetimme sinulle sähköpostia, jotta voit vahvistaa sähköpostiosoitteesi.",
   "Please check your email (remember to check your spam folder too) and click on the link supplied on the email.": "Tarkistathan sähköpostisi (muista tarkistaa myös roskapostikansio) and klikkaa sähköpostista löytyvästä linkistä.",
   "Your email has been validated and now you are logged in" : "Sähköpostisi on nyt vahvistettu, ja olet kirjautunut sisään.", 
+  "You're being redirected in 5 seconds": "Olet ohjataan 5 sekunnissa",
   "You can now argue and vote on bills!": "Voit nyt väitellä ja äänestää!",
   "Go to": "Mene",
   "browsing": "Aloita",
@@ -279,5 +295,15 @@
 
   "This page does not exist": "Sivua ei ole olemassa",
   "go back to": "Mene takaisin",
-  "Go back to DemocracyOS": "Mene takaisin DemocracyOS"
+  "Go back to DemocracyOS": "Mene takaisin DemocracyOS",
+
+  "side-comments.post": "virka",
+  "side-comments.cancel": "peruuttaa",
+  "side-comments.leave-a-comment": "Jätä kommentti",
+  "side-comments.delete": "poistaa",
+  "side-comments.or": "tai",
+  "side-comments.login": "käyttäjätunnus",
+  "side-comments.signup": "Rekisteröidy",
+  "side-comments.delete.confirmation": "Oletko varma, että haluat poistaa tämän kommentin?",
+  "side-comments.confirmation.title": "Poista kommentti"
 }

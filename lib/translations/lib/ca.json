@@ -42,6 +42,22 @@
   "Confirm new password": "Confirm new password",
   "Your password was successfuly updated": "Your password was successfuly updated",
   "Current password is invalid": "Current password is invalid",
+  "Please wait": "Si us plau espera",
+
+  "validators.required": "cal",
+  "validators.checked": "Camp obligatori comprovat",
+  "validators.invalid.email": "Adreça de correu electrònic no és vàlid",
+  "validators.invalid.firstname": "nom no vàlid",
+  "validators.invalid.lastname": "cognom invàlid",
+  "validators.invalid.url": "URL no vàlida",
+  "validators.invalid.number": "Nombre no vàlid",
+  "invalid.password": "contrasenya no vàlida",
+  "validators.min-length.singular": "Ha de ser com a mínim 1 caràcter",
+  "validators.min-length.plural": "És mus ser d'almenys {n} caràcters",
+  "validators.input.not-exists": "No existeix {name} elemental",
+  "validators.password.not.match": "Les contrasenyes no coincideixen",
+  "validators.not.match": "no hi ha resultats",
+  "validators.invalid": "invàlid",
 
   "sidebar.open": "Overts",
   "sidebar.closed": "Tancats",
@@ -110,10 +126,10 @@
   "Re-type password": "Torna a introduiïr la contrasenya",
   "Signup now!": "¡Registra'm  ara!",
   "Welcome, {name}!": "¡Felicitats, {name}!",
-  "Guest": "Invitat",
   "Your sign up data was received. We sent you an email so you can validate your email address.": "Ja t'hem registrat. T'hem enviat un correu electrònic perquè puguis validar la teva adreça de correu electrònic.",
   "Please check your email (remember to check your spam folder too) and click on the link supplied on the email.": "El següent pas es entrar al teu correu electrònic (comprova el correu brossa) i clicar damunt l'enllaç que t'hem enviat.",  
   "Your email has been validated and now you are logged in" : "El teu correu electrònic ha estat validat, ja pots iniciar sessió",   
+  "You're being redirected in 5 seconds": "Estàs sent redireccionat a 5 segons",
   "You can now comment and vote on bills!": "¡Ja pots commentar i votar programes de llei!",
   "Go to": "Anar a",
   "browsing": "començar",
@@ -286,5 +302,15 @@
 
   "This page does not exist": "Aquesta pàgina no existeix",
   "go back to": "Torna a",
-  "Go back to DemocracyOS": "Torna a DemocracyOS"
+  "Go back to DemocracyOS": "Torna a DemocracyOS",
+
+  "side-comments.post": "Lloc",
+  "side-comments.cancel": "Cancel",
+  "side-comments.leave-a-comment": "Deixa un comentari",
+  "side-comments.delete": "Esborrar",
+  "side-comments.or": "o",
+  "side-comments.login": "Login",
+  "side-comments.signup": "Registra't",
+  "side-comments.delete.confirmation": "Està segur que desitja eliminar aquest comentari?",
+  "side-comments.confirmation.title": "Eliminar comentari"
 }
