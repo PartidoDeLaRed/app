@@ -78,6 +78,7 @@
   "comments.reply": "Respuesta",
   "comments.reply-to-argument": "Responde a este argumento",
   "comments.sign-in-required": "Debés estar registrado para poder argumentar aquí",
+  "comments.sign-in-required-to-vote-comments": "Debes estar registrado para poder calificar argumentos",
   "comments.deleted-arguments": "Argumentos eliminados",
   "comments.your-argument": "Tu argumento",
   "comments.edit.argument": "Editar argumento",
@@ -302,8 +303,8 @@
 
   "help.title": "Ayuda",
   "help.faq.title": "Preguntas frecuentes",
-  "help.tos.title": "Términos del Servicio",
-  "help.pp.title": "Política de Privacidad",
+  "help.tos.title": "Términos y condiciones",
+  "help.pp.title": "Política de privacidad",
   "help.glossary.title": "Glosario",
   "help.markdown.title": "Ayuda de edición",
 
@@ -316,8 +317,8 @@
   "side-comments.leave-a-comment": "Deja un comentario",
   "side-comments.delete": "Borrar",
   "side-comments.or": "o",
-  "side-comments.login": "Login",
-  "side-comments.signup": "Signup",
+  "side-comments.login": "Ingresar",
+  "side-comments.signup": "Registrarse",
   "side-comments.delete.confirmation": "¿Deseas eliminar este comentario?",
   "side-comments.confirmation.title": "Eliminar comentario"
 }

@@ -42,7 +42,7 @@
   "Confirm new password": "Confirm new password",
   "Your password was successfuly updated": "Your password was successfuly updated",
   "Current password is invalid": "Current password is invalid",
-  "Please wait": "Por favor espere",
+  "Please wait": "Please wait",
 
   "validators.required": "Required",
   "validators.checked": "Required checked field",
@@ -76,6 +76,7 @@
   "comments.reply": "Reply",
   "comments.reply-to-argument": "Reply to this argument",
   "comments.sign-in-required": "You must be signed in to argue here",
+  "comments.sign-in-required-to-vote-comments": "You must be signed in to up/downvote arguments",
   "comments.deleted-arguments": "Deleted arguments",
   "comments.your-argument": "Your argument",
   "comments.edit.argument": "Edit argument",
@@ -151,7 +152,7 @@
   "Last name": "Last name",
   "Save": "Save",
 
-  "Close": "Close",
+  "Close": "Closes",
   "Closed": "Closed",
   "Unknown closing date": "Unknown closing date",
   "Vote": "Vote",
