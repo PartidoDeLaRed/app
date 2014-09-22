@@ -3,6 +3,7 @@
   "common.ok": "OK",
   "common.cancel": "Annuleren",
   "common.back": "Terug",
+  "common.back": "Ritornare",
 
   "DemocracyOS": "DemocracyOS",
   "header.logo": "DemocracyOS",
@@ -93,6 +94,7 @@
   "No citizen for email" : "Geen inwoner voor email",
   "New Password": "Nieuw wachtwoord",
   "Re-type new password": "Herhaal wachtwoord",
+  "By signing up you are accepting our": "Door in te schrijven aanvaardt u onze",
   "Password": "Wachtwoord",
   "Repeat Password": "Herhaal wachtwoord",
   "Reset Password!": "Wachtwoord opnieuw instellen!",
