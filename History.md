@@ -1,4 +1,19 @@
 
+0.8.3 / 2014-09-22
+==================
+
+ * Add author field to law #428
+ * Add ToS and PP accept on signup #405
+ * Remove 'Bill' prefix from title and remove required lawId #424
+ * Fix refresh signin when there are no laws #434
+ * Fix typo on 'Read more'
+
+0.8.2 / 2014-09-19
+==================
+
+ * Add portuguese locale
+ * Add missing key from `en.json`
+
 0.8.1 / 2014-09-18
 ==================
 
