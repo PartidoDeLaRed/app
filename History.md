@@ -1,4 +1,33 @@
 
+0.8.25 / 2014-11-07
+==================
+
+ * Add preventing disabled accounts to sign in
+
+0.8.24 / 2014-10-22
+==================
+
+ * Fix dep ref back to upstream
+ * Revert "Update ref to a breaking dep"
+ * Revert "Update all dep refs from 'visionmedia' to 'tj' #456"
+
+0.8.23 / 2014-10-21
+==================
+
+ * Update ref to a breaking dep
+
+0.8.22 / 2014-10-21
+==================
+ * Update all dep refs from 'visionmedia' to 'tj' #456
+ * Update dep for DemocracyOS/side-comments
+ * Update refs for component/t
+ * Pin deps for component/emitter
+
+0.8.21 / 2014-10-21
+==================
+
+ * Fix fixtures use and add acknowledgements to README.md
+
 0.8.20 / 2014-10-20
 ==================
 
