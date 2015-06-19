@@ -1,22 +1,30 @@
-/**
- * Module dependencies.
- */
-
-var http = require('http');
-var app = module.exports = require('lib/boot');
-var server = http.createServer(app);
-var balance = require('lib/balance');
 var config = require('lib/config');
+var app = require('lib/boot');
+var serverFactory = require('lib/server-factory');
 var log = require('debug')('democracyos:root');
 
+
 /**
- * Launch the server
+ * Module export
  */
 
-if (module === require.main) {
-  balance(function() {
-    server.listen(config('privatePort'), function() {
-      log('Application started on port %d', config('privatePort'));
+module.exports = app;
+
+
+/**
+ * Launch the server(s)!
+ */
+
+var servers = serverFactory(app, {
+  port: process.env.PORT || config.publicPort,
+  protocol: config.protocol,
+  https: config.https
+});
+
+if (module === require.main){
+  servers.forEach(function listen(server) {
+    server.listen(function(){
+      log('Server started at port %s.', server.port);
     });
   });
 }
