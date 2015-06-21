@@ -6,6 +6,7 @@ lib-cov
 *.out
 *.pid
 *.gz
+.npmrc
 
 pids
 logs
@@ -16,6 +17,12 @@ node_modules
 
 components
 public
+ssl
+
+config*.json
 
 *.DS_Store
-config*.json
+.env
+.idea/*
+
+.env

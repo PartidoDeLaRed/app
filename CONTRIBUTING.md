@@ -1,6 +1,6 @@
 ## Contributing to DemocracyOS
 
-If you have a question about DemocracyOS (not a bug report) please post it to our [Google Group](http://groups.google.com/group/democracyos-app).
+If you have a question about DemocracyOS (not a bug report) please post it to our [mailing list](http://groups.google.com/group/democracyos-app).
 
 
 ### Reporting bugs / Requesting features
@@ -14,6 +14,16 @@ You'd help us out a lot by first checking if someone else has reported the same 
 #### Help us help you
 
 Share as much information as possible. Include operating system and version, browser and version, version of DemocracyOS. Also include steps to reproduce the bug and any logs from browser and/or process whenever possible.
+
+A good approach to a bug report is being very clear on how to reproduce it. Following this template might help (kudos to [@bastianhell](https://github.com/bastianhell):
+
+> 1. Run app with `make`
+> 2. Navigate to `/route`
+> 3. Click on `button` and see error in `console` output
+> 
+> Results: What is the actual result that makes it a bug? (e.g: Misaligned text in header, see attached snapshot, etc.)
+> 
+> Expected results: What should it look like? (e.g.: text in header should be aligned with dropdowns, etc.)
 
 
 ### Pull requests
@@ -65,11 +75,11 @@ Main contributors will review your code and possibly ask for changes before your
 
 #### General guidelines
 
-* Do not make a pull request withouth having run the app on your own. This means, you have to manually test (at least) that everything works.
-* Try not to pollute your pull request with unintended changes. Keep them simple and small.
+* We flag the issues to community participation as [help wanted](https://github.com/DemocracyOS/app/labels/help%20wanted), try to prioritize these.
+* Do not make a pull request withouth having run the app on your own. This means, you have to at least [smoke test](http://en.wikipedia.org/wiki/Smoke_testing_(software))  what you did. If you can include some tests with your PR, all the better.
+* Try not to pollute your pull request with unintended changes. Keep them simple and small. Unrelated commits will prevent us from merging.
 * Pull requests should always be against the `development` branch, never against `master`.
 * All pull requests must comply with the project's coding styles explained here.
-
 
 ### Coding style
 
@@ -86,7 +96,7 @@ In general terms, we agree with almost everything said in this [blog post about 
 * Use CDNs and HTTPS for third-party JS when possible. We don't use protocol-relative URLs in this case because they break when viewing the page locally via file://.
 * Only use third-party JS when there is no [component](https://github.com/component/component/wiki/Components) available for it.
 
-#### CSS
+#### Stylesheets
 
 * For component/module specific styles, comply with `#unique-template-top-node-selector .my-generic-css-update { ... }`
 * Multiple-line approach (one pair `property: value;` per line)
