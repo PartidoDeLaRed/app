@@ -1,4 +1,18 @@
 
+0.19.0 / 2015-07-06
+==================
+
+ * Add Greek translation
+ * Add Chinese (traditional) translation credit
+
+0.18.0 / 2015-07-02
+==================
+
+ * add support for Chinese (Traditional) language
+ * add gitter link on CONTRIBUTING.md
+ * add new accented chars to regex, closes #941
+ * add config setting to always show voting results. Closes #926
+
 0.17.6 / 2015-06-16
 ===================
 
