@@ -1,6 +1,6 @@
 {
   "name": "DemocracyOS",
-  "version": "0.17.6",
+  "version": "0.19.0",
   "description": "An online space for deliberation and voting on political proposals. The software aims to stimulate better arguments and come to better rulings.",
   "homepage": "http://www.democracyos.org/",
   "keywords": [
@@ -88,7 +88,7 @@
     "mout": "^0.11.0",
     "node-path": "0.0.3",
     "nomnom": "^1.8.1",
-    "notifier-client": "0.3.0",
+    "notifier-client": "0.3.1",
     "nowww": "~1.1.2",
     "passport": "~0.1.17",
     "passport-facebook": "2.0.x",
@@ -104,7 +104,7 @@
     "xss": "0.x"
   },
   "devDependencies": {
-    "google-translate": "^0.1.8"
+    "google-translate": "^1.0.0"
   },
   "main": "pdr",
   "engines": {
